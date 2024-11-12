@@ -1,6 +1,6 @@
 # Cemu Metal game compatibility list
 
-This repository contains a list of games compatible with the Cemu Metal backend. You can see the list by going to `Issues`. If you don't find the game you were looking for, it means it wasn't tested yet.
+This repository contains a list of games compatible with the Cemu Metal backend. You can see the list by going to `Issues` (games that run perfectly will be under the `Closed` tab). If you don't find the game you were looking for, it means it wasn't tested yet.
 
 ## How to test games
 
