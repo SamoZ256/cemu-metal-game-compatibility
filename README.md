@@ -12,7 +12,7 @@ If you have tested a game that isn't in `Issues`, please report it [here](TODO).
 
 ## How to make a frame capture
 
-If there are graphical issues in the game, it might be useful if you made a frame capture. See [this guide](TODO) on how to make one.
+If there are graphical issues in the game, it might be useful if you made a frame capture. See [this guide](https://github.com/SamoZ256/cemu-frame-capture) on how to make one.
 
 ## How to fix performance issues
 
