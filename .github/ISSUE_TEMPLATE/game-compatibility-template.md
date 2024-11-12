@@ -21,4 +21,4 @@ Put the version of Cemu you used for testing (e.g. `testing1.0.0`).
 
 ## Similar reports
 
-- [ ] I have checked that the game hasn’t been reported on the `Issues` page yet (please tick the checkbox)
+- [ ] I have checked that the game hasn’t been reported on the `Issues` page yet (please tick the checkbox by writing `X` inside `[ ]`)
