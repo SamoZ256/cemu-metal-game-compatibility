@@ -10,6 +10,10 @@ You can get the latest release of Cemu Metal [here](https://github.com/SamoZ256/
 
 If you have tested a game that isn't in `Issues`, please report it [here](https://github.com/SamoZ256/cemu-metal-game-compatibility/issues/new?assignees=&labels=&projects=&template=game-compatibility-template.md&title=). Use the game name as a title. If the game you tested doesn't work as intended, please provide a detailed description of what exactly the issue is. Attaching a log is really helpful as well.
 
+## Graphics packs
+
+Many graphics packs use custom shaders written in GLSL, but that is currently not supported by the Metal backend. So please, disable all your graphics packs before testing a game. The only exception is the `FPS++` mod for botw (FPS unlocking packs for other games might work as well, but they haven't been tested yet).
+
 ## How to make a frame capture
 
 If there are graphical issues in the game, it might be useful if you made a frame capture. See [this guide](https://github.com/SamoZ256/cemu-frame-capture) on how to make one.
