@@ -17,7 +17,11 @@ Please include at least one screenshot of the game (if possible).
 
 ## Cemu Metal version
 
-Put the version of Cemu you used for testing (e.g. `testing1.0.0`).
+Put the version of Cemu you used for testing here (e.g. `testing1.0.0`).
+
+## Mac
+
+Put the Mac model you used for testing here (e.g. `M1 MacBook Air`).
 
 ## Similar reports
 
