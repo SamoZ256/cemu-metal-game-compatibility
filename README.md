@@ -22,6 +22,10 @@ If there are graphical issues in the game, it might be useful if you made a fram
 
 There are some tricks to improve performance for some games. Turning `Accurate Barriers` off in the `Debug` section of the menu bar can greatly improve the performance in *The Legend of Zelda: Breath of the Wild* (make sure to also use the FPS++ mod). Setting the `buffer cache mode` (in game profile) to either `device shared` or `host` will slightly improve the performance in most games, and will also completely fix performance issues present in *The Legend of Zelda: Wind Waker HD* in areas with lots of particles. Just note that changing this option might cause graphical issues in certain games (for example in *New Super Mario Bros U*, all blocks will appear yellow when going into the same level twice).
 
+## Intel Mac issues
+
+Games utilizing geometry shaders (for example *Super Mario Maker*) may crash your whole computer on certain Macs with Intel GPUs (AMD and Apple Silicons are fine). While the cause of this issue remains unknown, it's most likely a bug in the Intel Metal drivers, so there is not much we can do about it. Users with Intel GPUs are therefore advised to run games with caution. A good way to find out if a game uses geometry shaders is to see if GUI or the whole screen is cut diagonally when Vulkan is used (like the mini map in *The Legend of Zelda: Twilight Princess* or the whole screen *Mario Tennis: Ultra Smash*).
+
 ## Got any other questions?
 
 In case you'd like to ask anything regarding the Metal backend for Cemu, feel free to reach out in the official Cemu discord server in the `macos` channel.
