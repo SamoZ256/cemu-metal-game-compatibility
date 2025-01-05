@@ -16,7 +16,15 @@ Many graphics packs use custom shaders written in GLSL, but that is currently no
 
 ## How to make a frame capture
 
-If there are graphical issues in the game, it might be useful if you made a frame capture. See [this guide](https://github.com/SamoZ256/cemu-frame-capture) on how to make one.
+If there are graphical issues in a game, it might be useful to make a frame capture.
+
+### For Metal
+
+First, execute `launchctl setenv METAL_CAPTURE_ENABLED 1` in the terminal to enable Metal frame capture for all apps. This has slight (almost non-measurable) impact on the performance. You can disable it by either running `launchctl setenv METAL_CAPTURE_ENABLED 0` or restarting macOS. Next, go to `General Settings -> Debug` and set `GPU capture save directory` to the directory that you want the capture to save to. Now when you have launched a game and want to do a frame capture, simply choose `Debug -> Capture frame (Metal)` in the menu bar. Note that the frame capture might freeze the game for as long as a few minutes depending on the complexity of the game and how powerful your computer is. The frame capture is complete once the game unfreezes.
+
+### For Vulkan
+
+The option for Metal isn't available for Vulkan. See [this guide](https://github.com/SamoZ256/cemu-frame-capture) on how to make a frame capture with the Vulkan backend.
 
 ## How to fix performance issues
 
