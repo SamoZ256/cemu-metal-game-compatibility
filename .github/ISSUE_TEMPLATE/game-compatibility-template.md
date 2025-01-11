@@ -15,6 +15,10 @@ Describe the issues with the game (`Perfect` if none).
 
 Please include at least one screenshot of the game (if possible).
 
+## MoltenVK status
+
+How does the game work with the Vulkan backend through MoltenVK?
+
 ## Cemu Metal version
 
 Put the version of Cemu you used for testing here (e.g. `testing1.0.0`).
