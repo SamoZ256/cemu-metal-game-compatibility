@@ -28,7 +28,7 @@ The option for Metal isn't available for Vulkan. See [this guide](https://github
 
 ## How to fix performance issues
 
-There are some tricks to improve performance for some games. Turning `Accurate Barriers` off in the `Debug` section of the menu bar can greatly improve the performance in *The Legend of Zelda: Breath of the Wild* (make sure to also use the FPS++ mod). Setting the `buffer cache mode` (in game profile) to either `device shared` or `host` will slightly improve the performance in most games, and will also completely fix performance issues present in *The Legend of Zelda: Wind Waker HD* in areas with lots of particles. Games that get substantial performance improvement from using these alternative buffer cache modes will be labeled with `buffer cache change`. Just note that changing this option might cause graphical issues in certain games (for example in *New Super Mario Bros U*, all blocks will appear yellow when going into the same level for the second time).
+There are some tricks to improve performance for some games. Make sure to use the FPS++ mod in *The Legend of Zelda: Breath of the Wild*. Setting the `buffer cache mode` (in game profile) to either `device shared` or `host` will slightly improve the performance in most games, and will also completely fix performance issues present in *The Legend of Zelda: Wind Waker HD* in areas with lots of particles. Games that get substantial performance improvement from using these alternative buffer cache modes will be labeled with `buffer cache change`. Just note that changing this option might cause graphical issues in certain games (for example in *New Super Mario Bros U*, all blocks will appear yellow when going into the same level for the second time).
 
 ## Intel Mac issues
 
